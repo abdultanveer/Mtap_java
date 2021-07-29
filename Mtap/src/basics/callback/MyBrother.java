@@ -1,9 +1,9 @@
 package basics.callback;
 
-public class MyBrother implements BrotherCallBack {
+public class MyBrother implements MobilePhone {
 
 	@Override
-	public void call() {
+	public void onSuccessButtonOne() {
 		System.out.println("office boy is done with his work, im giving him another task");
 		doAnotherWork();
 	}
